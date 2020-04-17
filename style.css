@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
+html {
+  display: grid;
+  min-height: 100%;
+  
+}
+
+body {
+  display: grid;
+  background:black
+  
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 650px;
+  height: 480px;
+}
+
+h1 {
+  text-align: center;
+  font-family:'Lato', sans-serif;
+  margin-top: 2em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.count {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Lato', sans-serif;
+  font-size: .7em;
+  letter-spacing: 5px;
+  margin-top: 25%;
+}
+
+.days,
+.hours,
+.minutes, 
+.seconds {
+  display: inline-block;
+  padding: 20px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.days {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+.hours {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+  color: white;
+}
+
+.minutes {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+.seconds {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+  
+}
+
+.numbers {
+  color: crimson;
+  font-family:'Montserrat', sans-serif;
+  font-size: 4em;
+}
+
+.x {
+  position: absolute;
+  background: crimson;
+  height: 85px;
+  width: 75px;
+  left: 30%;
+  top: 2%;
+}
+  .bord {
+    border-bottom: 14px solid white;
+  }
+  .circle {
+    background: white;
+    border: 1px solid white;
+  }
+
+
+.y {
+  position: absolute;
+  background: crimson;
+  left: 18%;
+  top: 9%;
+  height: 65px;
+  width: 70px;
+}
+  
+
+.z {
+  position: absolute;
+  background: crimson;
+  height: 80px;
+  width: 80px;
+  left: 60%;
+  top: 5%;
+
+}
+  
+
+.balloon {
+  border-radius: 10%;
+  z-index: 2;
+}
+
+
+.bord {
+  position: absolute;
+  left: 40%;
+  bottom: -10%;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.circle {
+  position: absolute;
+  height: 70px;
+  width: 1px;
+  left: 48%;
+  top: 100%;
+  z-index: -1;
+}
+
+/* Default Style */
+.graph {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+  }
+  .graph a {
+    color: crimson;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+    
