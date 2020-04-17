@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  position: relative;
+  position: absolute;
   margin: auto;
   overflow: hidden;
   width: 650px;
