@@ -27,5 +27,5 @@ let count = setInterval(function() {
 <div class=\"seconds\"> \
   <div class=\"numbers\">" + seconds + "</div>seconds</div> \
 </div>";
-
-}, );
+//1000 is for seconds
+}, 1000);
