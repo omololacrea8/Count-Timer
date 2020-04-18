@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
 
+
+
 body {
   display: grid;
-  place-items:center;
+  place-items: center;
   background:black;
-  height:100vh;
-  width:100vw;
-  text-align:center;
+  height: 100vh;
+  
+  
 }
 
 .container {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
+  max-width:650px;
   margin: auto;
   overflow: hidden;
-  width: 650px;
   height: 480px;
 }
 
@@ -80,67 +82,12 @@ h1 {
   font-size: 4em;
 }
 
-.x {
-  position: absolute;
-  background: crimson;
-  height: 85px;
-  width: 75px;
-  left: 30%;
-  top: 2%;
-}
-  .bord {
-    border-bottom: 14px solid white;
-  }
-  .circle {
-    background: white;
-    border: 1px solid white;
-  }
 
-
-.y {
-  position: absolute;
-  background: crimson;
-  left: 18%;
-  top: 9%;
-  height: 65px;
-  width: 70px;
-}
-  
-
-.z {
-  position: absolute;
-  background: crimson;
-  height: 80px;
-  width: 80px;
-  left: 60%;
-  top: 5%;
-
-}
   
 
 .balloon {
   border-radius: 10%;
   z-index: 2;
-}
-
-
-.bord {
-  position: absolute;
-  left: 40%;
-  bottom: -10%;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-}
-
-.circle {
-  position: absolute;
-  height: 70px;
-  width: 1px;
-  left: 48%;
-  top: 100%;
-  z-index: -1;
 }
 
 /* Default Style */
